@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Leckerli+One&famlily=Mr+Dafoe&family=Oleo+Script+Swash+Caps&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400&display=swap');
+body, *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: #0062ff;
+    position: fixed;
+    padding: 3px;
+    width: 100%;
+    z-index: 5;
+    text-align: center;
+    margin-top: -10px;
+   
+}
+header h1{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: solid 3px #fff;
+    color: #fff;
+    display: inline-block;
+    border-radius: 30px;
+ 
+}
+
+.welcome{
+    max-width: 100%;
+    width: 1300px;
+    position: relative;
+    margin: 10px auto;
+    height: 550px;
+   
+}
+
+.welcome img{
+    position: absolute;
+    top: 28%;
+    left: 73%;
+    width: 220px;
+    border-radius: 50%;
+    background-color: darkgray;
+    border-top-right-radius: 0;
+}
+
+.welcome h2{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    position: absolute;
+    top: 38%;
+    left: 5%;
+    color: #333;
+}
+.welcome h2 span{
+    font-weight: bold;
+    color: #0062ff;
+}
+
+nav{
+    position: sticky;
+    top: 5%;
+    margin-left: -20px;
+    background-color: darkgray;
+    z-index: 15;;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 4px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: lowercase;
+    color: #222;
+}
+
+main.main-content{
+    width: 100%;
+    max-width: 1000px;
+    margin: 75px auto;
+}
+
+section h2{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #0062ff;
+}
+
+section p{
+    font-size: 1rem;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.images li{
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.image img{
+    width: 100%;
+    border: solid 2px #ddd;
+    border-radius: 1rem;
+}
+
+div.services .row{
+    display: flex;
+    margin-bottom: 2rem;
+}
+div .service-title{
+    display: flex;
+}
+.service-title img{
+    width: 42px;
+    margin-right: 30px;
+}
+div .service-title h3{
+    font-size: 1.8rem;
+}
+div .service p{
+    margin-right: 50px;
+}
+
+form{
+    border: solid 2px #ddd;
+    width: 65%;
+    padding: 15px;
+    background-color: #0b367a3f;
+    border-radius: 2rem;
+}
+
+form input[type='name']{
+    padding: 8px;
+    font-size: 1rem;
+    width: 100%;
+    border: solid 1px #ddd;
+    margin: 6px 0;
+}
+form input[type='username']{
+    padding: 8px;
+    font-size: 1rem;
+    width: 100%;
+    border: solid 1px #ddd;
+    margin: 6px 0;
+}
+form input[type='email'], form textarea{
+    padding: 8px;
+    font-size: 1rem;
+    width: 100%;
+    border: solid 1px #ddd;
+    margin: 6px 0;
+}
+
+form input[type='submit']{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+    background-color: #fff;
+    color: #0062ff;;
+    padding: 8px 20px;
+    border-radius: 2rem;
+}
+
+.whashapp{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.whashapp img .logo{
+    height: 50px;
+    justify-items: center;
+}
+.whashapp span.phone{
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+}
+
+div.form{
+    position: relative;
+}
+div.form form{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+footer{
+    width: 100%;
+    background-color: #0062ff;
+    color: #fff;
+    margin-top: 130px;
+}
+
+footer p{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p a{
+    text-decoration: none;
+    color: rgba(199, 198, 198);
+    font-weight: bold;
+}
